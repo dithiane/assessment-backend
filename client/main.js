@@ -132,8 +132,7 @@ const prepareStarShips = () => {
         gsap.to(el, {
             y: () => {
                 let pathY = (1 - parseFloat(el.getAttribute("data-speed"))) * (ScrollTrigger.maxScroll(window) - (this.scrollTrigger ? this.scrollTrigger.start : 0))
-
-                //showWinner(el.getAttribute("id"))
+                //TO DO showWinner(el.getAttribute("id"))
                 return pathY
             },
             ease: "none",
