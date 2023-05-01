@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "name": "",
+    "model": "",
+    "manufacturer": "",
+    "cost_in_credits": "",
+    "length": "",
+    "max_atmosphering_speed": "950",
+    "crew": "",
+    "passengers": "",
+    "cargo_capacity": "",
+    "consumables": "1 year",
+    "hyperdrive_rating": "2.0",
+    "MGLT": "60",
+    "starship_class": "",
+    "pilots": [],
+    "films": [],
+    "created": "2023-12-10T14:20:33.369000Z",
+    "edited": "2023-12-20T21:23:49.867000Z",
+    "url": ""
+  }
+]

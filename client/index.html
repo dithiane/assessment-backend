@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="container">
+    <div id="smooth-wrapper">
+      <section class="inputs">
+          <button id="complimentButton">Get a compliment</button>
+          <h1>Welcome to the swapi!</h1>
+          <div id="toggleQuestion1">
+            <p>Are you want to be a pilot of the Star Wars Squadrons?</p>
+            <button id="wishBePilotButton">Yes</button>
+          </div>
+          <div id="toggleQuestion2">
+            <p id="starShipTitle"> Let's select randomly OR create the spaceship you will flight!</p>
+            <button id="starShipButton">Select</button>
+          </div>
+          <div id="createNewStarShip">
+            <button id = "createNewStarShipButton">Create</button>
+            <input id = "newStarShip" type="text">
+            <input id = "newStarShipSpeed" type="text">
+          </div>
+      </section>
+      <div id="smooth-content">
+        <div class="footer">
+          <div class="footer-child" data-speed="clamp(0.5)">The End</div>
+        </div>
+      </div>
+    </div>
+    <div class="middle"></div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>    <script src="main.js"></script>
+    <script src="https://assets.codepen.io/16327/ScrollSmoother.min.js"></script>
+    <script src="./gsap.js"></script>
+  </body>
+</html>
