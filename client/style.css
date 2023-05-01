@@ -83,32 +83,6 @@ button {
   white-space: nowrap;
 }
 
-
-/* .ship-You {
-  top: 80vh;
-  left: 10%
-}
-
-.ship-1 {
-  top: 80vh;
-  left: 30%
-}
-
-.ship-2 {
-  top: 80vh;
-  left: 50%
-}
-
-.ship-3 {
-  top: 80vh;
-  left: 70%
-}
-
-.ship-4 {
-  top: 80vh;
-  left: 90%
-} */
-
 .middle {
   position: fixed;
   top: 50%;
